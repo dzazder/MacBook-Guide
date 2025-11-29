@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook Guide — Przewodnik dla Początkujących</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    
+    <nav class="sidebar">
+        <div class="logo">
+            <span class="apple-icon"></span>
+            <span>MacBook Guide</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#intro" class="active" data-section="intro">🚀 Start</a></li>
+            <li><a href="#shortcuts" data-section="shortcuts">⌨️ Skróty klawiszowe</a></li>
+            <li><a href="#trackpad" data-section="trackpad">🖐️ Gesty trackpada</a></li>
+            <li><a href="#finder" data-section="finder">📁 Finder</a></li>
+            <li><a href="#spotlight" data-section="spotlight">🔍 Spotlight</a></li>
+            <li><a href="#screenshots" data-section="screenshots">📸 Zrzuty ekranu</a></li>
+            <li><a href="#spaces" data-section="spaces">🪟 Mission Control</a></li>
+            <li><a href="#terminal" data-section="terminal">💻 Terminal</a></li>
+            <li><a href="#tips" data-section="tips">💡 Pro Tips</a></li>
+            <li><a href="#videos" data-section="videos">🎬 Filmy</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <span>Made with ❤️ for Mac users</span>
+        </div>
+    </nav>
+
+    <main class="content">
+        <!-- INTRO SECTION -->
+        <section id="intro" class="section active">
+            <div class="section-header">
+                <h1>Witaj w świecie macOS! 🍎</h1>
+                <p class="subtitle">Twój kompleksowy przewodnik po MacBooku</p>
+            </div>
+            
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <div class="intro-icon">⌘</div>
+                    <h3>Klawisz Command</h3>
+                    <p>To twój najlepszy przyjaciel. Większość skrótów używa właśnie tego klawisza zamiast Ctrl.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">🖐️</div>
+                    <h3>Trackpad</h3>
+                    <p>Najlepszy trackpad w branży. Obsługuje gesty wielodotykowe, które zwiększą twoją produktywność.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">🔍</div>
+                    <h3>Spotlight</h3>
+                    <p>Naciśnij ⌘ + Spacja aby wyszukać cokolwiek — aplikacje, pliki, kalkulacje, definicje.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">🔒</div>
+                    <h3>Bezpieczeństwo</h3>
+                    <p>macOS jest znany z bezpieczeństwa. Gatekeeper chroni przed złośliwym oprogramowaniem.</p>
+                </div>
+            </div>
+
+            <div class="keyboard-layout">
+                <h2>Poznaj klawiaturę Mac</h2>
+                <div class="keyboard-visual">
+                    <div class="key-group">
+                        <div class="key-item">
+                            <span class="key">⌘</span>
+                            <span class="key-label">Command</span>
+                        </div>
+                        <div class="key-item">
+                            <span class="key">⌥</span>
+                            <span class="key-label">Option (Alt)</span>
+                        </div>
+                        <div class="key-item">
+                            <span class="key">⌃</span>
+                            <span class="key-label">Control</span>
+                        </div>
+                        <div class="key-item">
+                            <span class="key">⇧</span>
+                            <span class="key-label">Shift</span>
+                        </div>
+                        <div class="key-item">
+                            <span class="key">⇪</span>
+                            <span class="key-label">Caps Lock</span>
+                        </div>
+                        <div class="key-item">
+                            <span class="key">fn</span>
+                            <span class="key-label">Function</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SHORTCUTS SECTION -->
+        <section id="shortcuts" class="section">
+            <div class="section-header">
+                <h1>Skróty klawiszowe ⌨️</h1>
+                <p class="subtitle">Opanuj te kombinacje i pracuj 10x szybciej</p>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>📋 Podstawowe (używaj codziennie)</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>C</span></div>
+                        <div class="desc">Kopiuj</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>V</span></div>
+                        <div class="desc">Wklej</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>X</span></div>
+                        <div class="desc">Wytnij</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>Z</span></div>
+                        <div class="desc">Cofnij</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⇧</span><span>Z</span></div>
+                        <div class="desc">Ponów</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>A</span></div>
+                        <div class="desc">Zaznacz wszystko</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>S</span></div>
+                        <div class="desc">Zapisz</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>F</span></div>
+                        <div class="desc">Znajdź</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>🪟 Zarządzanie oknami</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>W</span></div>
+                        <div class="desc">Zamknij okno/kartę</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>Q</span></div>
+                        <div class="desc">Zamknij aplikację</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>M</span></div>
+                        <div class="desc">Minimalizuj okno</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>H</span></div>
+                        <div class="desc">Ukryj aplikację</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>Tab</span></div>
+                        <div class="desc">Przełącz aplikacje</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>`</span></div>
+                        <div class="desc">Przełącz okna aplikacji</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌃</span><span>⌘</span><span>F</span></div>
+                        <div class="desc">Pełny ekran</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>N</span></div>
+                        <div class="desc">Nowe okno</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>🌐 Safari / Przeglądarka</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>T</span></div>
+                        <div class="desc">Nowa karta</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>L</span></div>
+                        <div class="desc">Fokus na pasek adresu</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>R</span></div>
+                        <div class="desc">Odśwież stronę</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⇧</span><span>T</span></div>
+                        <div class="desc">Otwórz zamkniętą kartę</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>[</span></div>
+                        <div class="desc">Wstecz</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>]</span></div>
+                        <div class="desc">Naprzód</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>1-9</span></div>
+                        <div class="desc">Przejdź do karty N</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>D</span></div>
+                        <div class="desc">Dodaj zakładkę</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>⚡ System</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card highlight">
+                        <div class="keys"><span>⌘</span><span>Space</span></div>
+                        <div class="desc">Spotlight Search</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>,</span></div>
+                        <div class="desc">Preferencje aplikacji</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌃</span><span>⌘</span><span>Q</span></div>
+                        <div class="desc">Zablokuj ekran</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⌥</span><span>Esc</span></div>
+                        <div class="desc">Wymuś zakończenie</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌃</span><span>⌘</span><span>Space</span></div>
+                        <div class="desc">Emoji picker 😀</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⇧</span><span>.</span></div>
+                        <div class="desc">Pokaż ukryte pliki</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro-tip">
+                <div class="tip-icon">💡</div>
+                <div class="tip-content">
+                    <strong>Pro Tip:</strong> Przytrzymaj klawisz ⌘ w dowolnej aplikacji, aby zobaczyć listę dostępnych skrótów!
+                </div>
+            </div>
+        </section>
+
+        <!-- TRACKPAD SECTION -->
+        <section id="trackpad" class="section">
+            <div class="section-header">
+                <h1>Gesty Trackpada 🖐️</h1>
+                <p class="subtitle">Trackpad Force Touch to potężne narzędzie</p>
+            </div>
+
+            <div class="gestures-grid">
+                <div class="gesture-card">
+                    <div class="gesture-animation tap-1"></div>
+                    <h3>Kliknięcie</h3>
+                    <p>Dotknij jednym palcem, aby kliknąć</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation tap-2"></div>
+                    <h3>Prawy przycisk</h3>
+                    <p>Kliknij dwoma palcami lub kliknij w prawym dolnym rogu</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation scroll"></div>
+                    <h3>Przewijanie</h3>
+                    <p>Przesuń dwoma palcami w górę/dół</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation zoom"></div>
+                    <h3>Powiększ/Pomniejsz</h3>
+                    <p>Rozsuń/Zbliż dwa palce (pinch)</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation rotate"></div>
+                    <h3>Obróć</h3>
+                    <p>Obróć dwoma palcami (w zdjęciach, mapach)</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation swipe-2"></div>
+                    <h3>Wstecz/Naprzód</h3>
+                    <p>Przesuń dwoma palcami w lewo/prawo</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation swipe-3"></div>
+                    <h3>Przełącz pulpity</h3>
+                    <p>Przesuń trzema lub czterema palcami w lewo/prawo</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation swipe-up"></div>
+                    <h3>Mission Control</h3>
+                    <p>Przesuń trzema lub czterema palcami w górę</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation pinch-out"></div>
+                    <h3>Launchpad</h3>
+                    <p>Zbliż cztery palce (lub pięć)</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation pinch-in"></div>
+                    <h3>Pokaż pulpit</h3>
+                    <p>Rozsuń cztery palce</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation force"></div>
+                    <h3>Force Click</h3>
+                    <p>Naciśnij mocniej, aby uzyskać więcej opcji (podgląd, definicje)</p>
+                </div>
+                
+                <div class="gesture-card">
+                    <div class="gesture-animation tap-3"></div>
+                    <h3>Look Up</h3>
+                    <p>Dotknij trzema palcami, aby sprawdzić definicję słowa</p>
+                </div>
+            </div>
+
+            <div class="settings-hint">
+                <h3>⚙️ Dostosuj gesty</h3>
+                <p>Przejdź do <strong>Ustawienia systemowe → Trackpad</strong> aby zobaczyć filmy demonstracyjne i dostosować gesty do swoich preferencji.</p>
+                <div class="path-visual">
+                    <span class="path-step">🍎 Menu Apple</span>
+                    <span class="path-arrow">→</span>
+                    <span class="path-step">Ustawienia systemowe</span>
+                    <span class="path-arrow">→</span>
+                    <span class="path-step">Trackpad</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINDER SECTION -->
+        <section id="finder" class="section">
+            <div class="section-header">
+                <h1>Finder — Menadżer plików 📁</h1>
+                <p class="subtitle">Twój centralny punkt zarządzania plikami</p>
+            </div>
+
+            <div class="finder-views">
+                <h2>Widoki Findera</h2>
+                <div class="views-grid">
+                    <div class="view-card">
+                        <div class="view-icon">📋</div>
+                        <h4>Lista</h4>
+                        <div class="shortcut-mini"><span>⌘</span><span>2</span></div>
+                    </div>
+                    <div class="view-card">
+                        <div class="view-icon">🔳</div>
+                        <h4>Ikony</h4>
+                        <div class="shortcut-mini"><span>⌘</span><span>1</span></div>
+                    </div>
+                    <div class="view-card">
+                        <div class="view-icon">📊</div>
+                        <h4>Kolumny</h4>
+                        <div class="shortcut-mini"><span>⌘</span><span>3</span></div>
+                    </div>
+                    <div class="view-card">
+                        <div class="view-icon">🖼️</div>
+                        <h4>Galeria</h4>
+                        <div class="shortcut-mini"><span>⌘</span><span>4</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>⌨️ Skróty w Finderze</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⇧</span><span>N</span></div>
+                        <div class="desc">Nowy folder</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>Space</span></div>
+                        <div class="desc">Quick Look (podgląd)</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>Enter</span></div>
+                        <div class="desc">Zmień nazwę</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>Delete</span></div>
+                        <div class="desc">Przenieś do kosza</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⇧</span><span>G</span></div>
+                        <div class="desc">Idź do folderu...</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>I</span></div>
+                        <div class="desc">Informacje o pliku</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>D</span></div>
+                        <div class="desc">Duplikuj</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌘</span><span>⌥</span><span>V</span></div>
+                        <div class="desc">Przenieś (zamiast kopiuj)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <h3>🔍 Quick Look — Błyskawiczny podgląd</h3>
+                <p>Zaznacz plik i naciśnij <strong>Spację</strong>. Możesz podglądać:</p>
+                <ul class="feature-list">
+                    <li>📄 Dokumenty PDF, Word, Pages</li>
+                    <li>🖼️ Zdjęcia i grafiki</li>
+                    <li>🎬 Filmy i animacje</li>
+                    <li>🎵 Pliki audio</li>
+                    <li>📦 Zawartość archiwów ZIP</li>
+                </ul>
+            </div>
+
+            <div class="pro-tip">
+                <div class="tip-icon">💡</div>
+                <div class="tip-content">
+                    <strong>Pro Tip:</strong> Przeciągnij folder na ikonę Terminal w Docku, aby otworzyć Terminal w tym folderze!
+                </div>
+            </div>
+        </section>
+
+        <!-- SPOTLIGHT SECTION -->
+        <section id="spotlight" class="section">
+            <div class="section-header">
+                <h1>Spotlight Search 🔍</h1>
+                <p class="subtitle">Najpotężniejsze narzędzie macOS — naciśnij ⌘ + Spacja</p>
+            </div>
+
+            <div class="spotlight-demo">
+                <div class="spotlight-bar">
+                    <span class="spotlight-icon">🔍</span>
+                    <span class="spotlight-text">Wpisz cokolwiek...</span>
+                </div>
+            </div>
+
+            <div class="spotlight-features">
+                <h2>Co możesz zrobić w Spotlight?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h4>Uruchamiaj aplikacje</h4>
+                        <p>Wpisz nazwę aplikacji i naciśnij Enter</p>
+                        <div class="example">Przykład: "Safari", "Notes", "Terminal"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📄</div>
+                        <h4>Znajdź pliki</h4>
+                        <p>Wyszukuj dokumenty, zdjęcia, wszystko</p>
+                        <div class="example">Przykład: "raport Q3", "zdjęcia wakacje"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧮</div>
+                        <h4>Obliczenia</h4>
+                        <p>Spotlight to też kalkulator!</p>
+                        <div class="example">Przykład: "234 * 567", "sqrt(144)", "20% of 350"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💱</div>
+                        <h4>Konwersje walut</h4>
+                        <p>Przeliczaj waluty w czasie rzeczywistym</p>
+                        <div class="example">Przykład: "100 USD in PLN", "50 EUR to GBP"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📏</div>
+                        <h4>Konwersje jednostek</h4>
+                        <p>Długość, waga, temperatura...</p>
+                        <div class="example">Przykład: "5 miles in km", "100 fahrenheit in celsius"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h4>Definicje słów</h4>
+                        <p>Sprawdź znaczenie dowolnego słowa</p>
+                        <div class="example">Przykład: "define serendipity"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌤️</div>
+                        <h4>Pogoda</h4>
+                        <p>Sprawdź aktualną pogodę</p>
+                        <div class="example">Przykład: "weather Kraków", "pogoda Warszawa"</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h4>Ustawienia systemowe</h4>
+                        <p>Szybki dostęp do preferencji</p>
+                        <div class="example">Przykład: "Bluetooth", "Wi-Fi", "Display"</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREENSHOTS SECTION -->
+        <section id="screenshots" class="section">
+            <div class="section-header">
+                <h1>Zrzuty ekranu 📸</h1>
+                <p class="subtitle">macOS ma najbardziej zaawansowane narzędzia do screenshotów</p>
+            </div>
+
+            <div class="screenshot-types">
+                <div class="screenshot-card main">
+                    <div class="screenshot-visual full"></div>
+                    <h3>Cały ekran</h3>
+                    <div class="keys"><span>⌘</span><span>⇧</span><span>3</span></div>
+                    <p>Zapisuje zrzut całego ekranu na pulpicie</p>
+                </div>
+                
+                <div class="screenshot-card main">
+                    <div class="screenshot-visual area"></div>
+                    <h3>Zaznaczony obszar</h3>
+                    <div class="keys"><span>⌘</span><span>⇧</span><span>4</span></div>
+                    <p>Zaznacz prostokątem dokładny obszar</p>
+                </div>
+                
+                <div class="screenshot-card main">
+                    <div class="screenshot-visual window"></div>
+                    <h3>Okno</h3>
+                    <div class="keys"><span>⌘</span><span>⇧</span><span>4</span> + <span>Space</span></div>
+                    <p>Kliknij na okno — z cieniem!</p>
+                </div>
+                
+                <div class="screenshot-card main">
+                    <div class="screenshot-visual toolbar"></div>
+                    <h3>Panel narzędzi</h3>
+                    <div class="keys"><span>⌘</span><span>⇧</span><span>5</span></div>
+                    <p>Pełny panel: screenshoty + nagrywanie ekranu</p>
+                </div>
+            </div>
+
+            <div class="pro-tips-grid">
+                <div class="pro-tip">
+                    <div class="tip-icon">📋</div>
+                    <div class="tip-content">
+                        <strong>Do schowka:</strong> Dodaj <strong>⌃ (Control)</strong> do dowolnego skrótu, aby skopiować do schowka zamiast zapisywać plik.
+                    </div>
+                </div>
+                <div class="pro-tip">
+                    <div class="tip-icon">🎬</div>
+                    <div class="tip-content">
+                        <strong>Nagrywanie ekranu:</strong> ⌘ + ⇧ + 5 daje dostęp do nagrywania całego ekranu lub wybranego obszaru.
+                    </div>
+                </div>
+                <div class="pro-tip">
+                    <div class="tip-icon">✏️</div>
+                    <div class="tip-content">
+                        <strong>Edycja:</strong> Po zrobieniu screenshota kliknij miniaturkę w rogu, aby od razu edytować i dodać adnotacje.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MISSION CONTROL SECTION -->
+        <section id="spaces" class="section">
+            <div class="section-header">
+                <h1>Mission Control & Spaces 🪟</h1>
+                <p class="subtitle">Organizuj przestrzeń roboczą jak profesjonalista</p>
+            </div>
+
+            <div class="mission-control-visual">
+                <div class="spaces-bar">
+                    <div class="space-item">Pulpit 1</div>
+                    <div class="space-item active">Pulpit 2</div>
+                    <div class="space-item">Pulpit 3</div>
+                    <div class="space-item add">+</div>
+                </div>
+                <div class="windows-preview">
+                    <div class="window-item">Safari</div>
+                    <div class="window-item">VS Code</div>
+                    <div class="window-item">Terminal</div>
+                </div>
+            </div>
+
+            <div class="shortcuts-category">
+                <h2>⌨️ Skróty Mission Control</h2>
+                <div class="shortcuts-grid">
+                    <div class="shortcut-card highlight">
+                        <div class="keys"><span>⌃</span><span>↑</span></div>
+                        <div class="desc">Otwórz Mission Control</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌃</span><span>↓</span></div>
+                        <div class="desc">Okna aktywnej aplikacji</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>⌃</span><span>←</span><span>→</span></div>
+                        <div class="desc">Przełącz pulpity</div>
+                    </div>
+                    <div class="shortcut-card">
+                        <div class="keys"><span>F11</span></div>
+                        <div class="desc">Pokaż pulpit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <h3>🖥️ Jak korzystać ze Spaces?</h3>
+                <ol class="numbered-list">
+                    <li>Otwórz Mission Control (⌃ + ↑ lub gest czterema palcami w górę)</li>
+                    <li>Na górze zobaczysz pasek z pulpitami</li>
+                    <li>Kliknij <strong>+</strong> po prawej stronie, aby dodać nowy pulpit</li>
+                    <li>Przeciągaj okna między pulpitami</li>
+                    <li>Każdy pulpit może mieć inne aplikacje i zadania</li>
+                </ol>
+            </div>
+
+            <div class="pro-tip">
+                <div class="tip-icon">💡</div>
+                <div class="tip-content">
+                    <strong>Split View:</strong> Przytrzymaj zielony przycisk okna, aby podzielić ekran na dwie aplikacje obok siebie. Idealne do pracy z dokumentami!
+                </div>
+            </div>
+        </section>
+
+        <!-- TERMINAL SECTION -->
+        <section id="terminal" class="section">
+            <div class="section-header">
+                <h1>Terminal 💻</h1>
+                <p class="subtitle">Podstawy wiersza poleceń dla zaawansowanych</p>
+            </div>
+
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close"></span>
+                        <span class="btn-min"></span>
+                        <span class="btn-max"></span>
+                    </div>
+                    <span class="terminal-title">Terminal — zsh</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">~</span>
+                        <span class="command">ls -la</span>
+                        <span class="comment"># wyświetl zawartość folderu</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">~</span>
+                        <span class="command">cd Documents</span>
+                        <span class="comment"># zmień folder</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">~</span>
+                        <span class="command">mkdir nowy_folder</span>
+                        <span class="comment"># utwórz folder</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">~</span>
+                        <span class="command">open .</span>
+                        <span class="comment"># otwórz folder w Finderze</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commands-grid">
+                <h2>📖 Podstawowe komendy</h2>
+                <div class="command-card">
+                    <code>pwd</code>
+                    <span>Pokaż aktualny folder</span>
+                </div>
+                <div class="command-card">
+                    <code>ls</code>
+                    <span>Lista plików</span>
+                </div>
+                <div class="command-card">
+                    <code>cd [folder]</code>
+                    <span>Zmień folder</span>
+                </div>
+                <div class="command-card">
+                    <code>cd ..</code>
+                    <span>Folder nadrzędny</span>
+                </div>
+                <div class="command-card">
+                    <code>mkdir [nazwa]</code>
+                    <span>Utwórz folder</span>
+                </div>
+                <div class="command-card">
+                    <code>rm [plik]</code>
+                    <span>Usuń plik</span>
+                </div>
+                <div class="command-card">
+                    <code>cp [źródło] [cel]</code>
+                    <span>Kopiuj plik</span>
+                </div>
+                <div class="command-card">
+                    <code>mv [źródło] [cel]</code>
+                    <span>Przenieś/zmień nazwę</span>
+                </div>
+                <div class="command-card">
+                    <code>cat [plik]</code>
+                    <span>Wyświetl zawartość</span>
+                </div>
+                <div class="command-card">
+                    <code>open [plik/folder]</code>
+                    <span>Otwórz w domyślnej aplikacji</span>
+                </div>
+                <div class="command-card">
+                    <code>clear</code>
+                    <span>Wyczyść terminal</span>
+                </div>
+                <div class="command-card">
+                    <code>sudo [komenda]</code>
+                    <span>Wykonaj jako administrator</span>
+                </div>
+            </div>
+
+            <div class="pro-tip">
+                <div class="tip-icon">⚠️</div>
+                <div class="tip-content">
+                    <strong>Uwaga:</strong> Bądź ostrożny z komendami <code>rm</code> i <code>sudo</code>. Mogą trwale usunąć pliki lub zmienić system!
+                </div>
+            </div>
+        </section>
+
+        <!-- TIPS SECTION -->
+        <section id="tips" class="section">
+            <div class="section-header">
+                <h1>Pro Tips 💡</h1>
+                <p class="subtitle">Sekrety produktywności, których nie znajdziesz w podręczniku</p>
+            </div>
+
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-number">01</div>
+                    <h3>Hot Corners</h3>
+                    <p>Ustaw akcje dla rogów ekranu. Jedź myszką w róg, aby uruchomić Mission Control, zablokować ekran lub uruchomić wygaszacz.</p>
+                    <div class="path-visual small">
+                        <span>Ustawienia → Pulpit i Dock → Hot Corners</span>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">02</div>
+                    <h3>AirDrop</h3>
+                    <p>Błyskawiczne przesyłanie plików między urządzeniami Apple. Otwórz Finder → AirDrop lub przeciągnij plik na ikonę urządzenia.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">03</div>
+                    <h3>Handoff</h3>
+                    <p>Zacznij pisać maila na iPhonie, dokończ na Macu. Działa z Safari, Pages, Mail i wieloma innymi aplikacjami.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">04</div>
+                    <h3>Universal Clipboard</h3>
+                    <p>Skopiuj tekst na iPhonie, wklej na Macu. Działa automatycznie gdy urządzenia są zalogowane na to samo Apple ID.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">05</div>
+                    <h3>Dyktowanie</h3>
+                    <p>Naciśnij dwukrotnie <strong>fn</strong> aby dyktować tekst. Działa wszędzie gdzie możesz pisać.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">06</div>
+                    <h3>Preview — podpisywanie</h3>
+                    <p>Otwórz PDF w Preview, kliknij ikonę podpisu. Możesz narysować podpis na trackpadzie lub zeskanować kamerą!</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">07</div>
+                    <h3>Text Replacement</h3>
+                    <p>Twórz skróty tekstowe: wpisz "@@" → zamień na twój email. Ustawienia → Klawiatura → Text Replacement.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">08</div>
+                    <h3>Night Shift</h3>
+                    <p>Redukuje niebieskie światło wieczorem. Włącz automatycznie po zachodzie słońca w Ustawienia → Wyświetlacze.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">09</div>
+                    <h3>Sidecar</h3>
+                    <p>Użyj iPada jako drugiego monitora. Kliknij ikonę AirPlay na pasku menu i wybierz iPada.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">10</div>
+                    <h3>Focus Modes</h3>
+                    <p>Tryby skupienia blokują powiadomienia. Stwórz tryb "Praca" z tylko najważniejszymi aplikacjami.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">11</div>
+                    <h3>Quick Note</h3>
+                    <p>Przesuń do prawego dolnego rogu (lub ⌘ + fn + Q) aby szybko utworzyć notatkę z dowolnej aplikacji.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">12</div>
+                    <h3>Stage Manager</h3>
+                    <p>Nowy sposób organizacji okien (macOS Ventura+). Włącz w Control Center na pasku menu.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEOS SECTION -->
+        <section id="videos" class="section">
+            <div class="section-header">
+                <h1>Filmy i tutoriale 🎬</h1>
+                <p class="subtitle">Ucz się od najlepszych — oficjalne i społecznościowe materiały</p>
+            </div>
+
+            <div class="videos-category">
+                <h2>🍎 Oficjalne materiały Apple</h2>
+                <div class="videos-grid">
+                    <a href="https://support.apple.com/pl-pl/guide/mac-help/welcome/mac" target="_blank" class="video-card">
+                        <div class="video-thumbnail apple">
+                            <span>📖</span>
+                        </div>
+                        <h4>Podręcznik użytkownika macOS</h4>
+                        <p>Oficjalna dokumentacja Apple po polsku</p>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=67keaaWOKzE" target="_blank" class="video-card">
+                        <div class="video-thumbnail">
+                            <span>▶️</span>
+                        </div>
+                        <h4>Wprowadzenie do Mac</h4>
+                        <p>Oficjalny film Apple — podstawy macOS</p>
+                    </a>
+                    <a href="https://www.apple.com/pl/shop/browse/overlay/tipsmac" target="_blank" class="video-card">
+                        <div class="video-thumbnail apple">
+                            <span>💡</span>
+                        </div>
+                        <h4>Today at Apple</h4>
+                        <p>Darmowe sesje edukacyjne w Apple Store</p>
+                    </a>
+                    <a href="https://support.apple.com/pl-pl/HT201236" target="_blank" class="video-card">
+                        <div class="video-thumbnail apple">
+                            <span>⌨️</span>
+                        </div>
+                        <h4>Skróty klawiszowe Mac</h4>
+                        <p>Pełna lista wszystkich skrótów</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="videos-category">
+                <h2>🎥 Polecane kanały YouTube</h2>
+                <div class="videos-grid">
+                    <a href="https://www.youtube.com/c/AppleExplained" target="_blank" class="video-card">
+                        <div class="video-thumbnail yt">
+                            <span>🍎</span>
+                        </div>
+                        <h4>Apple Explained</h4>
+                        <p>Historia i funkcje produktów Apple</p>
+                    </a>
+                    <a href="https://www.youtube.com/c/9to5Mac" target="_blank" class="video-card">
+                        <div class="video-thumbnail yt">
+                            <span>📱</span>
+                        </div>
+                        <h4>9to5Mac</h4>
+                        <p>Recenzje, poradniki, nowości</p>
+                    </a>
+                    <a href="https://www.youtube.com/c/Snazzy" target="_blank" class="video-card">
+                        <div class="video-thumbnail yt">
+                            <span>💻</span>
+                        </div>
+                        <h4>Snazzy Labs</h4>
+                        <p>Zaawansowane porady i triki Mac</p>
+                    </a>
+                    <a href="https://www.youtube.com/c/MacMostVideo" target="_blank" class="video-card">
+                        <div class="video-thumbnail yt">
+                            <span>🎓</span>
+                        </div>
+                        <h4>MacMost</h4>
+                        <p>Setki tutoriali dla początkujących</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="videos-category">
+                <h2>📺 Polecane playlisty</h2>
+                <div class="videos-grid wide">
+                    <a href="https://www.youtube.com/playlist?list=PLHFlHpPjgk70x7bk7L4xpPp5V_HVrqB3d" target="_blank" class="video-card wide">
+                        <div class="video-thumbnail playlist">
+                            <span>📚</span>
+                        </div>
+                        <div class="video-info">
+                            <h4>Mac Tips and Tricks</h4>
+                            <p>Kolekcja najlepszych wskazówek — ponad 50 filmów</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/results?search_query=macbook+tips+for+beginners+2024" target="_blank" class="video-card wide">
+                        <div class="video-thumbnail playlist">
+                            <span>🔍</span>
+                        </div>
+                        <div class="video-info">
+                            <h4>MacBook Tips 2024</h4>
+                            <p>Najnowsze poradniki dla nowych użytkowników</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <h3>📱 Przydatne aplikacje na start</h3>
+                <div class="apps-grid">
+                    <div class="app-item">
+                        <span class="app-icon">📋</span>
+                        <span class="app-name">Raycast</span>
+                        <span class="app-desc">Lepszy Spotlight</span>
+                    </div>
+                    <div class="app-item">
+                        <span class="app-icon">🪟</span>
+                        <span class="app-name">Rectangle</span>
+                        <span class="app-desc">Zarządzanie oknami</span>
+                    </div>
+                    <div class="app-item">
+                        <span class="app-icon">☁️</span>
+                        <span class="app-name">CleanMyMac</span>
+                        <span class="app-desc">Czyszczenie systemu</span>
+                    </div>
+                    <div class="app-item">
+                        <span class="app-icon">🔐</span>
+                        <span class="app-name">1Password</span>
+                        <span class="app-desc">Menedżer haseł</span>
+                    </div>
+                    <div class="app-item">
+                        <span class="app-icon">📊</span>
+                        <span class="app-name">Stats</span>
+                        <span class="app-desc">Monitor systemu</span>
+                    </div>
+                    <div class="app-item">
+                        <span class="app-icon">🎨</span>
+                        <span class="app-name">Unsplash</span>
+                        <span class="app-desc">Tapety</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
